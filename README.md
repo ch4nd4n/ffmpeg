@@ -7,6 +7,15 @@ Build
 docker build -t ch4nd4n/ffmpeg .
 ```
 
+Simplest use:
+
+Use
+
+```sh
+docker run -it --rm --name ffmpeg ch4nd4n/ffmpeg:latest ffmpeg
+```
+
+
 Use
 
 ```sh
